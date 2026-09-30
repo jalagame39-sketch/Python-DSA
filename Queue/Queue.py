@@ -34,6 +34,7 @@ class Queue:
         if self._front+1==self.size:
           return True
       return False
+  
 queue=Queue()
 queue.enqueue(10)
 queue.enqueue(20)
