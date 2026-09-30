@@ -70,6 +70,7 @@ class linkedlist:
       cN = cN.next
     cN.next = None
     return True  
+  
 ll=linkedlist()
 ll.add(10)
 ll.add(20)
