@@ -52,6 +52,7 @@ class Stack:
         if self._top+1==self.size:
           return True
       return False
+  
 stack=Stack(3)
 stack.push(10)
 stack.push(20)
